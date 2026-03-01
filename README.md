@@ -80,8 +80,8 @@ Each run writes detailed logs and metrics to `logs_and_tracks/`, which can be an
 If Neo4j fails to start or connect (e.g., `Connection refused`), it could be due to a corrupted environment or lingering lock files. You can use the provided cleanup script to wipe the database space so it can be re-installed cleanly on the next run:
 
 ```bash
-chmod +x clear_neo4j.sh
-./clear_neo4j.sh
+chmod +x common/neo4j/clear_neo4j.sh
+./common/neo4j/clear_neo4j.sh
 ```
 
 ## Acknowledgements & Modified Dependencies

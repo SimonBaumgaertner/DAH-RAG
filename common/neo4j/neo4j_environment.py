@@ -80,8 +80,8 @@ class Neo4JEnvironment:
             )
             atexit.register(self._stop_db)
 
-            self.log.info("⏳ Waiting up to 60 seconds to ensure Neo4J is up and running!")
-            deadline = time.time() + 60  # up to 180s
+            self.log.info("⏳ Waiting up to 180 seconds to ensure Neo4J is up and running!")
+            deadline = time.time() + 180  # up to 180s
             last_err = None
             while time.time() < deadline:
                 try:
