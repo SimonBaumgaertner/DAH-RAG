@@ -1,0 +1,40 @@
+datasets==4.0.0
+faiss-cpu==1.12.0
+huggingface-hub==0.34.4
+neo4j==5.28.2
+networkx==3.5
+numpy==2.3.2
+openai==1.91.0
+pandas==2.3.2
+PyYAML==6.0.2
+scikit-learn==1.7.1
+sentence-transformers==5.1.0
+spacy==3.8.7
+tabulate==0.9.0
+tiktoken==0.8.0
+# --pre
+# --index-url https://download.pytorch.org/whl/nightly/cu128
+# torch
+torchvision
+torchaudio
+
+tqdm==4.67.1
+transformers==4.56.2
+accelerate==0.34.2
+einops==0.8.2
+# lightrag-hku>=1.4.9rc4
+aiohttp>=3.8.0
+fast-graphrag @ git+https://github.com/SimonBaumgaertner/fast-graphrag_fix.git@main
+
+rouge-score==0.1.2
+rank-bm25==0.2.2
+langchain-experimental>=0.0.65
+
+# RaptorRAG requirements
+umap-learn==0.5.5
+urllib3==1.26.6 
+
+# Optional: Flash Attention for faster attention computation
+# Install with: pip install flash-attn --no-build-isolation (requires CUDA toolkit)
+# The code will automatically fall back to default attention if flash-attn is not available
+pytest

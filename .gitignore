@@ -1,0 +1,124 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+hippo_venv/
+.hippo_venv/
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+data/*
+!data/HotpotQA_100/
+logs_and_tracks/*
+!logs_and_tracks/archived_experiment_data/
+!logs_and_tracks/prime_studies/
+!logs_and_tracks/scaling_studies/
+!logs_and_tracks/ablation_studies/
+!logs_and_tracks/to_analyze/
+!logs_and_tracks/to_analyze/**
+models/
+experiments/dumps/
+experiments/neo4j/backup/
+experiments/cache_and_storage/*
+!experiments/cache_and_storage/__init__.py
+experiments/light-rag_storage/
+experiments/cached_structured_documents_*/
+rag_approaches/*/cached_structured_documents/
+rag_approaches/*/answer/test/
+rag_approaches/*/data/
+rag_approaches/*/configs/
+util/data/
+util/parameter_optimizer/scores/
+util/hotpotQA/*.tar.bz2
+util/hotpotQA/hotpot_dev_fullwiki_v1.json
+common/neo4j/neo4j_env/
+common/neo4j/tar/
+common/llm/openrouter.txt
+common/strategies/graph_search/rankings/
+common/strategies/graph_search/timing/
+
+
+# Dynamic SLURM scripts
+DynamicSlurm.sh
+ScalingSlurm.sh
+common/llm/cluster.txt
+

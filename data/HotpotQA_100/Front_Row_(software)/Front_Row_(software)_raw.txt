@@ -1,0 +1,17 @@
+Front Row (software)
+
+Front Row is a discontinued media center\ref{Home_theater_PC} software application for Apple\ref{Apple_Inc.}'s Macintosh\ref{Macintosh} computers and Apple TV\ref{Apple_TV} for navigating and viewing video, photos, podcasts, and music from a computer, optical disc, or the Internet through a 10-foot user interface\ref{10-foot_user_interface} (similar to Windows Media Center\ref{Windows_Media_Center} and Kodi\ref{Kodi_(software)}). The software relies on iTunes and iPhoto and is controlled by an Apple Remote\ref{Apple_Remote} or the keyboard function keys. The first version was released October 2005, with two major revisions since. Front Row was removed and discontinued in Mac OS X 10.7\ref{Mac_OS_X_Lion}.
+
+Front Row was first unveiled on October 12, 2005 with the new iMac G5\ref{iMac_G5_iMac_G5_.28iSight.29} (along with the built-in iSight camera, the Apple Remote\ref{Apple_Remote}, and Photo Booth\ref{Photo_Booth}). The software was billed as an alternative interface for playing and running iPhoto\ref{iPhoto}, DVD Player\ref{DVD_Player_(software)}, and iTunes\ref{iTunes} (Internet radio\ref{Internet_radio} stations could play by adding the station into a playlist in iTunes).
+
+The next incarnation, released in the original Apple TV\ref{Apple_TV} software in March 2007, was a complete, stand alone application that played content directly from libraries. Among the features added were more prominent podcasts\ref{podcasts} and TV show menus, trailer streaming, a settings menu, streaming content from computers on the local network, and album and video art for local media. In the summer of 2007, Apple released an update adding streaming of YouTube\ref{YouTube} videos.
+
+Released in November 2007 with Mac OS X v10.5 (Leopard)\ref{Mac_OS_X_v10.5}, version two of Front Row included the new features introduced with the Apple TV (except for the YouTube viewer), a different opening transition, ending AirTunes\ref{AirTunes} functionality, and a launcher application in addition to the Command+Escape keyboard shortcut\ref{keyboard_shortcut}.
+
+Front Row 2 has an undocumented plug-in\ref{Plug-in_(computing)} architecture, for which various third-party plugins are now available, based on reverse-engineering the Front Row environment. Because it uses QuickTime\ref{QuickTime} to render video, Front Row can utilize any codec installed in QuickTime, including DivX\ref{DivX}, Xvid\ref{Xvid}, and WMV\ref{Windows_Media_Video}, and play DVD images copied to the hard disk. However, because Front Row does not use QuickTime X\ref{QuickTime_X}, it lacks support for certain codec features like Sample Aspect Ratio.
+
+In February 2008, Apple announced a Front Row update branded "Apple TV Take Two." In addition to the prominent addition of direct downloads for movies, TV episodes, and podcasts via the iTunes Store\ref{iTunes_Store}, movie rentals, the ability for viewing online photos from Flickr\ref{Flickr} or MobileMe\ref{MobileMe} (branded .Mac\ref{.Mac} at the time), and the streaming of audio to AirTunes were added.
+
+Front Row was discontinued with the July 2011 release of Mac OS X Lion\ref{Mac_OS_X_Lion} (v 10.7). The software appeared in neither the early Developer Previews nor the final version.
+
+While it was initially possible to reinstall Front Row by copying the frameworks and application into OS X Lion, iTunes\ref{iTunes} v 10.4 on 22 July 2011 broke compatibility, causing those who updated iTunes to lose access to their music through Front Row.
