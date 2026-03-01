@@ -13,8 +13,8 @@ spacy==3.8.7
 tabulate==0.9.0
 tiktoken==0.8.0
 # --pre
-# --index-url https://download.pytorch.org/whl/nightly/cu128
-# torch
+# --index-url https://download.pytorch.org/whl/nightly/cu128 (this is for my local setup)
+torch
 torchvision
 torchaudio
 
@@ -22,10 +22,7 @@ tqdm==4.67.1
 transformers==4.56.2
 accelerate==0.34.2
 einops==0.8.2
-# lightrag-hku>=1.4.9rc4
 aiohttp>=3.8.0
-fast-graphrag @ git+https://github.com/SimonBaumgaertner/fast-graphrag_fix.git@main
-
 rouge-score==0.1.2
 rank-bm25==0.2.2
 langchain-experimental>=0.0.65
